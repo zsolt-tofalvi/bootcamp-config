@@ -35,7 +35,7 @@ rawdbs:
   # list of raw-dbs > containing rawtables > containing pipelines
     - rawdb-name: src:001:sap:db
       dataset-external-id: src:001:sap:ds
-      short-name: sap assests
+      short-name: sap
       rawtables:
           - rawtable-name: assets
             pipelines:
@@ -51,7 +51,7 @@ rawdbs:
                         send-notification: false
     - rawdb-name: src:002:opcua:db
       dataset-external-id: src:002:opcua:ds
-      short-name: opcua datapoints
+      short-name: opcua
       rawtables:
           - rawtable-name: datapoints
             pipelines:
