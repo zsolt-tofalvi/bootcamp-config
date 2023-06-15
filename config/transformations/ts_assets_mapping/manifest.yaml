@@ -2,7 +2,8 @@
 # Manifest file downloaded from fusion
 externalId: tr-ts_assets_mapping
 name: ts_assets_mapping
-query: transformation.sql
+query:
+    file: transformation.sql
 destination:
     type: timeseries
 ignoreNullFields: true
