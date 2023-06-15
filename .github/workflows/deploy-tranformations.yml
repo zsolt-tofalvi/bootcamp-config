@@ -31,7 +31,7 @@ jobs:
                     # CDF Project name
                       CDF_PROJECT: cdf-bootcamp-04-prod
                     # Azure AD tenant id
-                      IDP_TENANT: 16e3985b-ebe8-4e24-9da4-933e21a9fc81cd
+                      IDP_TENANT: 16e3985b-ebe8-4e24-9da4-933e21a9fc81
 
         environment: ${{ matrix.environment}}
         env:
